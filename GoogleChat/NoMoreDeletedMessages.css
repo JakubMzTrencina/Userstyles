@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Google Chat: No More Deleted Messages
+@namespace      github.com/JakubMzTrencina/Userstyles
+@version        1.0.0
+@description    basically a life improver, removes the annoying "Message deleted by author" messages in Google Chat
+@author         JakubMzTrencina
+==/UserStyle== */
+
+@-moz-document domain("google.com") {
+    .b45mUb .GfYBMd {
+        display: none;
+    }
+    
+    .wIheD {
+        display: none;
+    }
+}

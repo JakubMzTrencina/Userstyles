@@ -1,0 +1,159 @@
+/* ==UserStyle==
+@name           Google Chat Teams
+@namespace      github.com/JakubMzTrencina/Userstyles
+@version        1.0.0
+@description    Google Chat, but it looks like Microsoft Teams
+@author         JakubMzTrencina
+==/UserStyle== */
+
+@-moz-document domain("google.com") {
+    .nF6pT.yqoUIf .rogmqd, .nF6pT.yqoUIf .wdoEHc {
+        border-radius: 5px !important;
+    }
+    
+    .iPhdvc {
+        border-radius: 0px !important;
+    }
+    
+    .FIgEvc .dIC9Jb.JGMh2e, .qdxBkb .ENr6Oe.JGMh2e {
+        border-radius: 0px !important;
+    }
+    
+    .YJxKBc .JGMh2e {
+        border: 0px !important;
+    }
+    
+    .nF6pT.yqoUIf .OMT1se.umOBzc {
+        border-radius: 3px  !important;
+    }
+    
+    .nF6pT.yqoUIf .OMT1se.umOBzc+.eWw5ab {
+        border-radius: 3px  !important;
+    }
+    
+    .dJ9vNe {
+        border-radius: 5px !important;
+    }
+    
+    .wmFscd.DWWcKd-OomVLb-LgbsSe-gk6SMd {
+        color: #A6A7DC !important;
+    }
+    
+    .bkK>.nH, .CMcgue, .vIO7af {
+        border-radius: 0px !important;
+    }
+    
+    .bkK>.nH, .zmXnlc .jO3HBb {
+        border-radius: 0px !important;
+    }
+    
+    .Yb.bax.bCd {
+        border-radius: 0px !important;
+        background: #0000;
+    }
+    
+    form.bas {
+        border-radius: 5px !important;
+    }
+    
+    form.bCb.bCe {
+        background: #1f1f1f;
+    }
+    
+    .GoAOqc {
+        border-radius: 5px !important;
+    }
+    
+    .gtXD1e {
+        border-top-left-radius: 5px !important;
+        min-width: 0px;
+        margin-right: 8px;
+    }
+    
+    .PL5Wwe.IrgmCb {
+        border-radius: 5px !important;
+    }
+    
+    .fqMOM {
+        border-radius: 5px !important;
+    }
+    
+    .KM9vFe {
+        border-radius: 5px !important;
+    }
+    
+    .L3.bGD {
+        border-radius: 5px !important;
+    }
+    
+    .kwI9i.yqoUIf .V5MAMb, .kwI9i.yqoUIf .V5MAMb .iPhdvc, .kwI9i.yqoUIf .Pj9rof, .kwI9i.yqoUIf .av5rYd, .kwI9i.yqoUIf .yGeRMb, .kwI9i.yqoUIf .KuG0bc, .IwyqYb.WjiXWd .V5MAMb, .IwyqYb.WjiXWd .V5MAMb .iPhdvc, .IwyqYb.WjiXWd .Pj9rof, .IwyqYb.WjiXWd .av5rYd, .IwyqYb.WjiXWd .yGeRMb, .IwyqYb.WjiXWd .KuG0bc {
+        border-radius: 5px !important;
+    }
+    
+    .af6rLc {
+        border-radius: 5px !important;
+    }
+    
+    .g3VIld {
+        border-radius: 4px !important;
+    }
+    
+    .oG5Srb, .e3Duub, .KV0KFc .NMPajd {
+        border-radius: 5px !important;
+    }
+    
+    .wdoEHc, .nF6pT.C8Ncfd .lL7iUe .Zc1Emd {
+        border-radius: 5px !important;
+    }
+    
+    .b45mUb .GfYBMd {
+        display: none;
+    }
+    
+    .AeBiU-LgbsSe {
+        border-radius: 5px !important;
+    }
+    
+    .wUxq1 {
+        border-radius: 5px !important;
+    }
+    
+    .QSmpqd {
+        border-radius: 5px !important;
+    }
+    
+    .LQELc {
+        border-radius: 5px !important;
+    }
+    
+    .aM97s:not(.zmXnlc) {
+        border-radius: 0px !important;
+    }
+    
+    .dB {
+        border-radius: 0px !important;
+    }
+    
+    [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc {
+        --message-bubbles-background-color: #292929 !important;
+        --message-bubbles-author-background-color: #313246 !important;
+        --message-bubbles-hover-background-color: #0000 !important;
+        --message-bubbles-author-hover-background-color: #0000 !important;
+        --message-bubbles-reaction-hover-border-color: #0000 !important;
+        --message-bubbles-self-reaction-bg-color: #0000 !important;
+        --message-bubbles-reaction-hover-background-color: #0000 !important;
+        --message-bubbles-author-hover-border-color: #313246 !important;
+        --message-bubbles-hover-border-color: #292929 !important;
+    }
+    
+    [data-theme=dark] {
+        --card-dark-link-title-color: #A6A7DC !important;
+        --primary-app-color: #A6A7DC !important;
+        --dialog-hairline-line-color: #0000 !important;
+        --background-color: #1F1F1F;
+    }
+    
+    [data-theme=dark] .PhFuQe {
+        --message-bubbles-edit-input-container-border-color: #0000 !important;
+    }
+}

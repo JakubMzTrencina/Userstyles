@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.0.0
-@description    Google Chat, but it looks like Microsoft Teams
+@version        1.0.1
+@description    Google Chat, lenže vyzerá podobne ako Teams.
 @author         JakubMzTrencina
 ==/UserStyle== */
 
@@ -56,18 +56,12 @@
         border-radius: 5px !important;
     }
     
-    form.bCb.bCe {
-        background: #1f1f1f;
-    }
-    
     .GoAOqc {
         border-radius: 5px !important;
     }
     
     .gtXD1e {
         border-top-left-radius: 5px !important;
-        min-width: 0px;
-        margin-right: 8px;
     }
     
     .PL5Wwe.IrgmCb {

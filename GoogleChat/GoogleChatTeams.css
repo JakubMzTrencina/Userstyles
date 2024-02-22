@@ -6,11 +6,6 @@
 @author         JakubMzTrencina
 ==/UserStyle== */
 
-/*
-WARNING: This is an experimental version of the Google Chat Teams userstyle! Stuff may break
-and/or may not look alright.
-*/
-
 @-moz-document regexp("^https:\\/\\/mail\\.google\\.com\\/.*"), regexp("^https:\\/\\/chat\\.google\\.com\\/.*") {
     .nF6pT.yqoUIf .rogmqd, .nF6pT.yqoUIf .wdoEHc {
         border-radius: 5px !important;

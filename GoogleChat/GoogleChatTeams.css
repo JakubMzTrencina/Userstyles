@@ -1,14 +1,21 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.0.1
-@description    Google Chat, but it looks like Microsoft Teams
+@version        1.1.4
+@description    Google Chat, but it looks like Microsoft Teams (Experimental Version)
 @author         JakubMzTrencina
 ==/UserStyle== */
 
-@-moz-document domain("google.com") {
+/*
+WARNING: This is an experimental version of the Google Chat Teams userstyle! Stuff may break
+and/or may not look alright.
+*/
+
+@-moz-document regexp("^https:\\/\\/mail\\.google\\.com\\/.*"), regexp("^https:\\/\\/chat\\.google\\.com\\/.*") {
     .nF6pT.yqoUIf .rogmqd, .nF6pT.yqoUIf .wdoEHc {
         border-radius: 5px !important;
+        align-self: flex-start !important;
+        width: 100%;
     }
     
     .iPhdvc {
@@ -128,6 +135,379 @@
         border-radius: 0px !important;
     }
     
+    .Zc1Emd, .wdoEHc {
+        font-size: 14px;
+        line-height: 20px;
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    .hfto6b .O5OMdc, .FKiqKb .wWf0Bc {
+        font-family: "Segoe UI",sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    
+    .ZCbGl .SwwApf {
+        border-radius: 50%;
+    }
+    
+    .Wj5jwb .O5OMdc {
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    .gb_we {
+        font: normal 14px "Segoe UI",sans-serif
+    }
+    
+    [data-theme=dark] .bwNLcf {
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    .LQELc {
+        font-family: "Segoe UI",sans-serif !important;
+    }
+    
+    .CmMGbe, .CmMGbe .VfPpkd-vQzf8d {
+        font-family: "Segoe UI",sans-serif !important;
+    }
+    
+    .qf1lnd, .fEI2qc, .wsDAod, .zDgwSe, .vzh0Hb, .iZY87 {
+        font-family: "Segoe UI",sans-serif !important;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .GfUqDb {
+        font-family: "Segoe UI",sans-serif !important;
+        font-size: 14px;
+    }
+    
+    .sBvGtd .VfPpkd-fmcmS-wGMbrd {
+        font-family: "Segoe UI",sans-serif !important;
+    }
+    
+    .yeCvlb {
+        --mdc-filled-text-field-active-indicator-color: none;
+        --mdc-filled-text-field-hover-active-indicator-color: none;
+        --gm3-text-field-filled-active-indicator-color: none;
+        --gm3-text-field-filled-hover-active-indicator-color: none;
+    }
+    
+    .sBvGtd {
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    
+    .zygGCb {
+        --mdc-filled-text-field-container-height: 40px;
+        --gm3-text-field-filled-container-height: 40px;
+    }
+    
+    .VfPpkd-fmcmS-yrriRe-OWXEXe-B7I4Od .VfPpkd-fmcmS-wGMbrd {
+        padding: 0 12px;
+    }
+    
+    .AeBiU-LgbsSe-OWXEXe-Bz112c-M1Soyc, .aKfPyb {
+        background-color: #4f52b2;
+        border-color: #0000;
+    }
+    
+    .AeBiU-LgbsSe-OWXEXe-Bz112c-M1Soyc:hover, .aKfPyb:hover {
+        background-color: #5b5fc7;
+        border-color: #0000;
+    }
+    
+    .AeBiU-LgbsSe-OWXEXe-Bz112c-M1Soyc:active, .aKfPyb:active {
+        background-color: #383966;
+        border-color: #0000;
+    }
+    
+    .AeBiU-vQzf8d {
+        color: #F2F2F8;
+    }
+    
+    .AeBiU-vQzf8d:hover {
+        color: #F2F2F8;
+    }
+    
+    .AeBiU-LgbsSe:active .AeBiU-vQzf8d {
+        color: #F2F2F8;
+    }
+    
+    .AeBiU-LgbsSe:hover .AeBiU-vQzf8d {
+        color: #F2F2F8;
+    }
+    
+    .AeBiU-LgbsSe:focus-visible .AeBiU-vQzf8d {
+       color: #F2F2F8; 
+    }
+    
+    .AeBiU-LgbsSe:focus-visible, .AeBiU-mRLv6:focus-visible~.AeBiU-UHGRz {
+        --gm3-focus-ring-outward-display: none;
+    }
+    
+    .uqVGtb {
+        fill: #F2F2F8;
+    }
+    
+    .VfPpkd-LgbsSe .VfPpkd-Jh9lGc::before, .VfPpkd-LgbsSe .VfPpkd-Jh9lGc::after, .aKfPyb .VfPpkd-Jh9lGc, .aKfPyb {
+        border-radius: 4px;
+    }
+    
+    .L3.bGD {
+        margin-top: 8px;
+    }
+    
+    .mUIrbf-LgbsSe {
+        border-radius: 4px;
+        background-color: #4f52b2;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-LgbsSe:hover {
+        border-radius: 4px;
+        background-color: #5b5fc7 !important;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-LgbsSe:active {
+        border-radius: 4px;
+        background-color: #383966 !important;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-vQzf8d {
+        color: #F2F2F8 !important;
+    }
+    
+    [data-theme=dark] .AjY5Oe:not(:disabled) {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+    }
+    
+    [data-theme=dark] .AjY5Oe:not(:disabled):hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    [data-theme=dark] .AjY5Oe:not(:disabled):active {
+        background-color: #383966 !important;
+    }
+    
+    [data-theme=dark] .AjY5Oe.VfPpkd-ksKsZd-mWPk3d {
+        --mdc-ripple-fg-opacity: 0 !important;
+    }
+    
+    .YUhpIc-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .YUhpIc-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .YUhpIc-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .YUhpIc-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    .iduKjf-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .iduKjf-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .iduKjf-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .iduKjf-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    .UywwFc-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .UywwFc-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .UywwFc-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .UywwFc-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    [data-theme=dark] .OLiIxf:not(:disabled) {
+        color: #F2F2F8;
+        border-color: #0000;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0 !important;
+        --mdc-ripple-fg-translate-start: 0px !important;
+        --mdc-ripple-fg-translate-end: 0px !important;
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    [data-theme=dark] .OLiIxf:hover:not(:disabled), [data-theme=dark] .OLiIxf.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe:not(:disabled), [data-theme=dark] .OLiIxf:not(.VfPpkd-ksKsZd-mWPk3d):focus:not(:disabled), [data-theme=dark] .OLiIxf:active:not(:disabled) {
+        color: #F2F2F8;
+    }
+    
+    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe {
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    .BFRaWe {
+        background-color: #202124;
+    }
+    
+    .rlPcwc {
+        box-shadow: none;
+        background-color: #202124;
+    }
+    
+    .YPA3Vb-LgbsSe {
+        background-color: #4f52b2;
+    }
+    
+    .YPA3Vb-vQzf8d {
+        color: #F2F2F8;
+    }
+    
+    .VfPpkd-LgbsSe-OWXEXe-INsAgc {
+        border-width: 0px;
+    }
+    
+    .Abjkyf .zsIcid {
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    
+    .tRcrsc, .bAw {
+        display: none;
+    }
+    
+    .ekM2ie.eO2Zfd {
+        border-radius: 0px;
+    }
+    
+    .KM9vFe:focus-within, .KM9vFe:hover {
+        background-color: transparent;
+    }
+    
+    .AeBiU-LgbsSe {
+        --gm3-focus-ring-outward-offset: 0px;
+        --gm3-focus-ring-outward-target-shape-start-start: 0px;
+        --gm3-focus-ring-outward-target-shape-start-end: 0px;
+        --gm3-focus-ring-outward-target-shape-end-end: 0px;
+        --gm3-focus-ring-outward-target-shape-end-start: 0px;
+        --gm3-focus-ring-outward-color: none;
+        --gm3-ripple-hover-color: #0000;
+        --gm3-ripple-pressed-color: #0000;
+    }
+    
+    .ZmJwXc {
+        --gm3-button-outlined-hover-outline-color: #F2F2F8;
+        --gm3-button-outlined-pressed-outline-color: #F2F2F8;
+    }
+    
+    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe {
+        background-color: #1E1E1E;
+    }
+    
+    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe .ojqkvd.ojqkvd, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe .ojqkvd.ojqkvd {
+        color: #F2F2F8;
+    }
+    
+    .gb_Pa.gb_vd .gb_rd, .gb_Pa:not(.gb_Qa) .gb_rd {
+        background-color: #464777 !important;
+    }
+    
+    .WR.baA {
+        background-color: #2B2B2B;
+    }
+    
+    form.bCb.bCe, form.bCb.bCe.bCc, .gb_0d.gb_ve, .gssb_m, .gssb_e {
+        background-color: #282828;
+    }
+    
+    .gssb_e {
+        border: none;
+    }
+    
+    .gssb_l {
+        display: none;
+    }
+    
+    .gssb_m {
+        color: #ffffffde;
+    }
+    
+    .aHr {
+        color: #d7d7d7de;
+    }
+    
+    .gssb_i {
+        background: transparent;
+    }
+    
+    .gb_0d.gb_ve .gb_we {
+        color: #ffffffde;
+    }
+    
+    .gb_0d.gb_ve button svg {
+        color: #e3e3e3;
+    }
+    
+    .gsoi_msra {
+        background: transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ5IDE5bC01LjczLTUuNzNDMTUuNTMgMTIuMiAxNiAxMC45MSAxNiA5LjVBNi41IDYuNSAwIDEgMCA5LjUgMTZjMS40MSAwIDIuNy0uNDcgMy43Ny0xLjI0TDE5IDIwLjQ5IDIwLjQ5IDE5ek01IDkuNUM1IDcuMDEgNy4wMSA1IDkuNSA1UzE0IDcuMDEgMTQgOS41IDExLjk5IDE0IDkuNSAxNCA1IDExLjk5IDUgOS41eiIvPjwvc3ZnPg==") no-repeat 2px 0;
+    }
+    
+    [data-theme=dark] .bwNLcf .VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd {
+        background-color: #282828;
+    }
+    
+    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:focus, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:focus {
+        background-color: #282828;
+    }
+    
     [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc {
         --message-bubbles-background-color: #292929 !important;
         --message-bubbles-author-background-color: #313246 !important;
@@ -138,6 +518,7 @@
         --message-bubbles-reaction-hover-background-color: #0000 !important;
         --message-bubbles-author-hover-border-color: #313246 !important;
         --message-bubbles-hover-border-color: #292929 !important;
+        --button-text-pressed-color: #F2F2F8;
     }
     
     [data-theme=dark] {
@@ -145,9 +526,18 @@
         --primary-app-color: #A6A7DC !important;
         --dialog-hairline-line-color: #0000 !important;
         --background-color: #1F1F1F;
+        --button-text-color: #F2F2F8;
     }
     
     [data-theme=dark] .PhFuQe {
         --message-bubbles-edit-input-container-border-color: #0000 !important;
+    }
+    
+    div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, img, del, dfn, em, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    body {
+        font-family: "Segoe UI",sans-serif;
     }
 }

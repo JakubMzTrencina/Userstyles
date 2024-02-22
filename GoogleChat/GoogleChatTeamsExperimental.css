@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.1.2
+@version        1.1.4
 @description    Google Chat, but it looks like Microsoft Teams
 @author         JakubMzTrencina
 ==/UserStyle== */
@@ -256,6 +256,35 @@ and/or may not look alright.
         border-radius: 4px;
     }
     
+    .L3.bGD {
+        margin-top: 8px;
+    }
+    
+    .mUIrbf-LgbsSe {
+        border-radius: 4px;
+        background-color: #4f52b2;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-LgbsSe:hover {
+        border-radius: 4px;
+        background-color: #5b5fc7 !important;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-LgbsSe:active {
+        border-radius: 4px;
+        background-color: #383966 !important;
+        --gm3-ripple-hover-color: transparent;
+        --gm3-ripple-pressed-color: transparent;
+    }
+    
+    .mUIrbf-vQzf8d {
+        color: #F2F2F8 !important;
+    }
+    
     [data-theme=dark] .AjY5Oe:not(:disabled) {
         background-color: #4f52b2 !important;
         color: #F2F2F8 !important;
@@ -275,6 +304,78 @@ and/or may not look alright.
         --mdc-ripple-fg-opacity: 0 !important;
     }
     
+    .YUhpIc-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .YUhpIc-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .YUhpIc-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .YUhpIc-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    .iduKjf-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .iduKjf-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .iduKjf-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .iduKjf-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    .UywwFc-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+    }
+    
+    .UywwFc-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .UywwFc-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .UywwFc-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
     [data-theme=dark] .OLiIxf:not(:disabled) {
         color: #F2F2F8;
         border-color: #0000;
@@ -289,8 +390,17 @@ and/or may not look alright.
         color: #F2F2F8;
     }
     
-    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d {
+    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe {
         font-family: "Segoe UI",sans-serif;
+    }
+    
+    .BFRaWe {
+        background-color: #202124;
+    }
+    
+    .rlPcwc {
+        box-shadow: none;
+        background-color: #202124;
     }
     
     .YPA3Vb-LgbsSe {
@@ -388,6 +498,14 @@ and/or may not look alright.
     
     .gsoi_msra {
         background: transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ5IDE5bC01LjczLTUuNzNDMTUuNTMgMTIuMiAxNiAxMC45MSAxNiA5LjVBNi41IDYuNSAwIDEgMCA5LjUgMTZjMS40MSAwIDIuNy0uNDcgMy43Ny0xLjI0TDE5IDIwLjQ5IDIwLjQ5IDE5ek01IDkuNUM1IDcuMDEgNy4wMSA1IDkuNSA1UzE0IDcuMDEgMTQgOS41IDExLjk5IDE0IDkuNSAxNCA1IDExLjk5IDUgOS41eiIvPjwvc3ZnPg==") no-repeat 2px 0;
+    }
+    
+    [data-theme=dark] .bwNLcf .VfPpkd-rymPhb-ibnC6b.VfPpkd-rymPhb-ibnC6b-OWXEXe-gk6SMd {
+        background-color: #282828;
+    }
+    
+    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:focus, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:focus {
+        background-color: #282828;
     }
     
     [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc {

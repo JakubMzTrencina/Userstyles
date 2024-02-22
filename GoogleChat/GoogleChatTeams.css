@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.1.4
+@version        1.1.5
 @description    Google Chat, but it looks like Microsoft Teams
 @author         JakubMzTrencina
 ==/UserStyle== */
@@ -501,6 +501,14 @@
     
     .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe:focus, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:hover, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe:focus {
         background-color: #282828;
+    }
+    
+    .gnnqwe {
+        margin-left: 5px;
+    }
+    
+    .tGGH5c .BScnzc {
+        border-radius: 5px !important;
     }
     
     [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc {

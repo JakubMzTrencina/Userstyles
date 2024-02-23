@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.1.5
+@version        1.1.6
 @description    Google Chat, but it looks like Microsoft Teams
 @author         JakubMzTrencina
 ==/UserStyle== */
@@ -371,6 +371,53 @@
         font-family: "Segoe UI",sans-serif
     }
     
+    .g3VIld .HvOprf, .e3Duub, .w63zXd .NMPajd {
+        background-color: #4f52b2 !important;
+    }
+    
+    .AeBiU-LgbsSe {
+        background-color: #4f52b2 !important;
+        color: #F2F2F8 !important;
+        border-radius: 4px;
+        --mdc-ripple-fg-size: 0px !important;
+        --mdc-ripple-fg-scale: 0px !important;
+        --gm3-ripple-hover-color: transparent !important;
+        --gm3-ripple-pressed-color: transparent !important;
+        --gm3-elevation-shadow-color: transparent !important;
+        border-style: none !important;
+    }
+    
+    .AeBiU-LgbsSe:hover {
+        background-color: #5b5fc7 !important;
+    }
+    
+    .AeBiU-LgbsSe:active {
+        background-color: #383966 !important;
+    }
+    
+    .AeBiU-vQzf8d {
+        color: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
+    .O0WRkf.j7nIZb .Vwe4Vb {
+        visibility: hidden;
+    }
+    
+    .O0WRkf .Vwe4Vb {
+        background-image: none;
+    }
+    
+    .oG5Srb:focus, .oG5Srb:focus:hover, .oG5Srb:active, .O0WRkf:not(.RDPZE):focus .CeoRYc, .O0WRkf:not(.RDPZE):focus:hover .CeoRYc, .oG5Srb:hover {
+        background-color: transparent;
+    }
+    
+    .g3VIld .HvOprf .snByac.snByac, .e3Duub .snByac, .w63zXd .ojqkvd, .HQ8yf .RveJvd.RveJvd, .oG5Srb .RveJvd.RveJvd, .KV0KFc .ojqkvd {
+        color: #F2F2F8 !important;
+        fill: #F2F2F8 !important;
+        font-family: "Segoe UI",sans-serif
+    }
+    
     [data-theme=dark] .OLiIxf:not(:disabled) {
         color: #F2F2F8;
         border-color: #0000;
@@ -385,8 +432,21 @@
         color: #F2F2F8;
     }
     
-    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe {
+    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe, .tRuV8b .dKv0S .S7oIUc, .tRuV8b .S7oIUc .juimXb, .tRuV8b .S7oIUc .L69Bjd, .FKiqKb .HyiAVd .Ai8TSe:not(.AmhPwd) .x1jjEb, .RLVv7e, .Yi1VGb, .LqViwb, .s9lKUd .eFykjb, .FeRvI .oJeWuf, [data-theme=dark] .P77izf .VfPpkd-StrnGf-rymPhb, .N5UCwd, .N91kPc, .pTFaId, .Fv5sh, .PAn4gd .FvYVyf, .CRUZZe, .aqvEkc, .CmMf8e, .ANwt3, .ue8vk, .qLpGrd, .RT16Vd {
         font-family: "Segoe UI",sans-serif;
+    }
+    
+    .FS4hgd.iWO5td>.lVYxmb {
+        background-image: none;
+    }
+    
+    .dKv0S .Da1OLc.iWO5td, .FS4hgd:hover, .FS4hgd:focus, .FS4hgd:hover:focus {
+        background-color: transparent;
+    }
+    
+    .Pc6wn {
+        --list-item-hover-bg-color: transparent;
+        --list-item-focus-bg-color: transparent;
     }
     
     .BFRaWe {
@@ -491,6 +551,10 @@
         color: #e3e3e3;
     }
     
+    .SwwApf {
+        border-radius: 50%;
+    }
+    
     .gsoi_msra {
         background: transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjQ5IDE5bC01LjczLTUuNzNDMTUuNTMgMTIuMiAxNiAxMC45MSAxNiA5LjVBNi41IDYuNSAwIDEgMCA5LjUgMTZjMS40MSAwIDIuNy0uNDcgMy43Ny0xLjI0TDE5IDIwLjQ5IDIwLjQ5IDE5ek01IDkuNUM1IDcuMDEgNy4wMSA1IDkuNSA1UzE0IDcuMDEgMTQgOS41IDExLjk5IDE0IDkuNSAxNCA1IDExLjk5IDUgOS41eiIvPjwvc3ZnPg==") no-repeat 2px 0;
     }
@@ -542,5 +606,9 @@
     
     body {
         font-family: "Segoe UI",sans-serif;
+    }
+    
+    .of4Gsc hr {
+        display: none;
     }
 }

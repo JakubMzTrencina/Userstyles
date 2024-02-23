@@ -6,7 +6,7 @@
 @author         JakubMzTrencina
 ==/UserStyle== */
 
-@-moz-document domain("google.com") {
+@-moz-document regexp("^https:\\/\\/chat\\.google\\.com\\/.*") {
     .b45mUb .GfYBMd {
         display: none;
     }
@@ -21,5 +21,9 @@
     
     .Sc7T4c {
         display: none;
+    }
+    
+    .WQKmIb .ajCeRb:not(.zzVqCe) {
+        padding-top: 0px;
     }
 }

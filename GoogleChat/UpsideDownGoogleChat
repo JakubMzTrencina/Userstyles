@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Upside-down Google Chat
+@namespace      github.com/JakubMzTrencina/Userstyles
+@version        1.0.0
+@description    Google Chat, but upside down.
+@author         JakubMzTrencina
+==/UserStyle== */
+
+@-moz-document regexp("^https:\\/\\/mail\\.google\\.com\\/chat\\/.*"), regexp("^https:\\/\\/chat\\.google\\.com\\/.*") {
+    body, iframe {
+        transform: rotate(180deg); 
+    }
+}

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.1.6
+@version        1.1.7
 @description    Google Chat, but it looks like Microsoft Teams
 @author         JakubMzTrencina
 ==/UserStyle== */
@@ -432,7 +432,19 @@
         color: #F2F2F8;
     }
     
-    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe, .tRuV8b .dKv0S .S7oIUc, .tRuV8b .S7oIUc .juimXb, .tRuV8b .S7oIUc .L69Bjd, .FKiqKb .HyiAVd .Ai8TSe:not(.AmhPwd) .x1jjEb, .RLVv7e, .Yi1VGb, .LqViwb, .s9lKUd .eFykjb, .FeRvI .oJeWuf, [data-theme=dark] .P77izf .VfPpkd-StrnGf-rymPhb, .N5UCwd, .N91kPc, .pTFaId, .Fv5sh, .PAn4gd .FvYVyf, .CRUZZe, .aqvEkc, .CmMf8e, .ANwt3, .ue8vk, .qLpGrd, .RT16Vd {
+    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe, .tRuV8b .dKv0S .S7oIUc, .tRuV8b .S7oIUc .juimXb, .tRuV8b .S7oIUc .L69Bjd, .FKiqKb .HyiAVd .Ai8TSe:not(.AmhPwd) .x1jjEb, .RLVv7e, .Yi1VGb, .LqViwb, .s9lKUd .eFykjb, .FeRvI .oJeWuf, [data-theme=dark] .P77izf .VfPpkd-StrnGf-rymPhb, .N5UCwd, .N91kPc, .pTFaId, .Fv5sh, .PAn4gd .FvYVyf, .CRUZZe, .aqvEkc, .CmMf8e, .ANwt3, .ue8vk, .qLpGrd, .RT16Vd, .EEqkrc, .PwENac, .I4p4db.XdSAtd:not(.ovhDne), .w9XJYd.XdSAtd:not(.ovhDne), .TUsLr:not(.ovhDne), .E633ec:not(.ovhDne), .a8zyXd, .upqLWd, .CyTCKc {
+        font-family: "Segoe UI",sans-serif;
+    }
+    
+    .aqWPhc .HNcB0e {
+        border-bottom: none;
+    }
+    
+    .PbnGhe {
+        font: 400 14px/20px "Segoe UI",sans-serif
+    }
+    
+    .TBnIgc .VfPpkd-fmcmS-wGMbrd {
         font-family: "Segoe UI",sans-serif;
     }
     
@@ -503,8 +515,12 @@
         --gm3-button-outlined-pressed-outline-color: #F2F2F8;
     }
     
-    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe {
+    .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe, .fqMOM.Qb1ood {
         background-color: #1E1E1E;
+    }
+    
+    [data-theme=dark], [data-theme=dark]~.JPdR6b {
+        --world-section-active-bg-color: #1E1E1E;
     }
     
     .rrCXqd.Pk64F .IL9EXe.dHI9xe.qs41qe .ojqkvd.ojqkvd, .rrCXqd.jwuIpc .IL9EXe.dHI9xe.qs41qe .ojqkvd.ojqkvd {
@@ -575,7 +591,7 @@
         border-radius: 5px !important;
     }
     
-    [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc {
+    [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc, [data-theme=dark] .nF6pT, [data-theme=dark] .wdoEHc {
         --message-bubbles-background-color: #292929 !important;
         --message-bubbles-author-background-color: #313246 !important;
         --message-bubbles-hover-background-color: #0000 !important;
@@ -586,6 +602,19 @@
         --message-bubbles-author-hover-border-color: #313246 !important;
         --message-bubbles-hover-border-color: #292929 !important;
         --button-text-pressed-color: #F2F2F8;
+    }
+    
+    .nF6pT.FwR7Pc:not(.r1BIN) .B8q9Gf, .nF6pT.FwR7Pc .cVKqyc {
+        background-color: transparent !important;
+    }
+    
+    [data-theme=dark] .nF6pT, [data-theme=dark] .wdoEHc {
+        --message-hover-background-color: transparent !important;
+        --message-author-hover-background-color: transparent !important;
+        --message-author-background-color: #313246 !important;
+        --message-background-color: #292929 !important;
+        --message-hover-border-color: transparent !important;
+        --message-author-hover-border-color: transparent !important;
     }
     
     [data-theme=dark] {
@@ -604,11 +633,15 @@
         font-family: "Segoe UI",sans-serif;
     }
     
-    body {
+    body, iframe {
         font-family: "Segoe UI",sans-serif;
     }
     
     .of4Gsc hr {
         display: none;
+    }
+    
+    .bkK {
+        background-color: #1F1F1F;
     }
 }

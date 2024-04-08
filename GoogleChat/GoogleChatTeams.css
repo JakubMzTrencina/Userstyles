@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Google Chat Teams
 @namespace      github.com/JakubMzTrencina/Userstyles
-@version        1.1.7
+@version        1.1.7.1
 @description    Google Chat, but it looks like Microsoft Teams
 @author         JakubMzTrencina
 ==/UserStyle== */
@@ -432,7 +432,7 @@
         color: #F2F2F8;
     }
     
-    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe, .tRuV8b .dKv0S .S7oIUc, .tRuV8b .S7oIUc .juimXb, .tRuV8b .S7oIUc .L69Bjd, .FKiqKb .HyiAVd .Ai8TSe:not(.AmhPwd) .x1jjEb, .RLVv7e, .Yi1VGb, .LqViwb, .s9lKUd .eFykjb, .FeRvI .oJeWuf, [data-theme=dark] .P77izf .VfPpkd-StrnGf-rymPhb, .N5UCwd, .N91kPc, .pTFaId, .Fv5sh, .PAn4gd .FvYVyf, .CRUZZe, .aqvEkc, .CmMf8e, .ANwt3, .ue8vk, .qLpGrd, .RT16Vd, .EEqkrc, .PwENac, .I4p4db.XdSAtd:not(.ovhDne), .w9XJYd.XdSAtd:not(.ovhDne), .TUsLr:not(.ovhDne), .E633ec:not(.ovhDne), .a8zyXd, .upqLWd, .CyTCKc {
+    .WK4gNc.MiXMWc .jy2fzc, .WK4gNc.MiXMWc .njhDLd, .bGF, .jUvnAb, .Yc.bax, .CzgMb .JHZPc, .dsIb9c .JHZPc, .mUIrbf-vQzf8d, .GdHcWc .snByac, .IWA4xc, .nF6pT.yqoUIf .cmEq8b .Z4BnXb .njhDLd, .XXAR0, .m7Cm7c, .yxGrHb, .JX41Qe-rymPhb-fpDzbe-fmcmS, .tOrNgd, .njhDLd, .S6gUdf, .YPA3Vb-vQzf8d, .PbnGhe, .tRuV8b .dKv0S .S7oIUc, .tRuV8b .S7oIUc .juimXb, .tRuV8b .S7oIUc .L69Bjd, .FKiqKb .HyiAVd .Ai8TSe:not(.AmhPwd) .x1jjEb, .RLVv7e, .Yi1VGb, .LqViwb, .s9lKUd .eFykjb, .FeRvI .oJeWuf, [data-theme=dark] .P77izf .VfPpkd-StrnGf-rymPhb, .N5UCwd, .N91kPc, .pTFaId, .Fv5sh, .PAn4gd .FvYVyf, .CRUZZe, .aqvEkc, .CmMf8e, .ANwt3, .ue8vk, .qLpGrd, .RT16Vd, .EEqkrc, .PwENac, .I4p4db.XdSAtd:not(.ovhDne), .w9XJYd.XdSAtd:not(.ovhDne), .TUsLr:not(.ovhDne), .E633ec:not(.ovhDne), .a8zyXd, .upqLWd, .CyTCKc, .I8CnDb .njhDLd, .gb_xe {
         font-family: "Segoe UI",sans-serif;
     }
     
@@ -527,7 +527,7 @@
         color: #F2F2F8;
     }
     
-    .gb_Pa.gb_vd .gb_rd, .gb_Pa:not(.gb_Qa) .gb_rd {
+    .gb_Pa.gb_vd .gb_rd, .gb_Pa:not(.gb_Qa) .gb_rd, .qp {
         background-color: #464777 !important;
     }
     
@@ -591,6 +591,10 @@
         border-radius: 5px !important;
     }
     
+    :not(.GLBjob)>.KM9vFe.rCZkM {
+        padding-left: 0px;
+    }
+    
     [data-theme=dark] .cmEq8b, [data-theme=dark] .wdoEHc, [data-theme=dark] .nF6pT, [data-theme=dark] .wdoEHc {
         --message-bubbles-background-color: #292929 !important;
         --message-bubbles-author-background-color: #313246 !important;
@@ -621,7 +625,7 @@
         --card-dark-link-title-color: #A6A7DC !important;
         --primary-app-color: #A6A7DC !important;
         --dialog-hairline-line-color: #0000 !important;
-        --background-color: #1F1F1F;
+        --background-color: #242424;
         --button-text-color: #F2F2F8;
     }
     
